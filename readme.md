@@ -4,7 +4,7 @@ Tourist highest priority Knapsack carrier
 
 I have also included api documentation -swagger https://localhost:44386/swagger/index.html
 
-![img.png](img.png)
+![Tourist](Tourist/img.png)
 
 Kindly note that i have kept it simple by only using the Get Method but the best solution would be to use POST Method that will take the List Items in a Json format payload and return list of highest priority knapsack
 
