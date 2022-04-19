@@ -11,11 +11,11 @@ Kindly note that i have kept it simple by only using the Get Method but the best
 The Get request will return aa list of Items with the highest value and making sure that the sum of the weight does not exceed 4kg,
 the response will also come with the total weight and total values. i used DTOs to accomplish this.
 
-![img_1.png](img_1.png)
+![Tourist](Tourist/img_1.png)
 
 By following KISS Principle i didnt' add the database because there's not data manipulation on this project , i only created a repository that will supply me with the list Items(Object). I din't use Async methods in my Api controller as i don't see the need in this project since the data given is static, in  an enterprise solution an async methods would have been used to accomodate long calls
 
-![img_2.png](img_2.png)
+![Tourist](Tourist/img_2.png)
 
 To come up with the final working solution , i had two approaches of determining the highest priority item list for the tourist,but in the solution i have used the approach with the lesser code , i have use the the below code     
 
